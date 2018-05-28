@@ -1,8 +1,8 @@
 :: Program Name:   Batch Convert Documents with Pandoc
-:: File Name:	   ehCode_2018.05.26_BatchConvertPandoc_01.bat
+:: File Name:	   batch-convert-pandoc.bat
 :: Date Created:   05/26/18
-:: Date Modified:  --
-:: Version:        1.00
+:: Date Modified:  05/28/18
+:: Version:        1.01
 :: Programmer:     Eric Hepperle
 :: 
 :: Purpose: Converts MS Word docs to markdown.
@@ -45,6 +45,11 @@ PAUSE>NUL
 
 :: NOTES :::::::::::::::::::::::::::::::::::::::::::::::::::
 ::   05/26/18 - Created file.
+::			  - Tested. Doesn't work. Posted note on Stack Overflow:
+::
+:: https://stackoverflow.com/questions/17157638/batch-processing-pandoc-conversions-in-windows#answer-37208709
+::
+::	 05/28/18 - Renamed file to batch-convert-pandoc.bat
 ::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
