@@ -34,10 +34,10 @@
 @echo OFF
 
 :: [Not sure what this does, but have read that it is necessary]
-setlocal enabledelayedexpansion
+:: setlocal enabledelayedexpansion
 
 :: MAIN
-FOR /r "." %%i IN (*.doc *.docx) DO pandoc -f rst -t markdown "%%~fi" -o "%%~dpni.md"
+FOR /r "." %%i IN (*.doc *.docx) DO pandoc "%%~fi" -o "%%~dpni.md"
 
 :: End with a pause so user can copy any text from screen.
 ECHO. Done. Press any key to terminate program
